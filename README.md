@@ -34,6 +34,8 @@ ollama pull qwen2.5-coder:3b
 # ollama pull phi3:mini            # универсальная, 3.8B
 ```
 ### 6. Создай файл `.env` 
+```env
 VK_TOKEN=your_vk_token_here
 VK_GROUP_ID=123456789
+```
 ---
