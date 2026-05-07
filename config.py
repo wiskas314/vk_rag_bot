@@ -5,6 +5,7 @@
 
 import os
 from dataclasses import dataclass, field
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -33,7 +34,7 @@ class OllamaConfig:
     timeout: int = 120
     # Параметры генерации
     temperature: float = 0.2   # низкая — более детерминированные ответы для учебных подсказок
-    num_predict: int = 512      # максимум токенов в ответе
+    num_predict: int = 512  # максимум токенов в ответе
 
 
 @dataclass
